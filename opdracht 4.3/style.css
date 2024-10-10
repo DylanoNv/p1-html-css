@@ -37,3 +37,15 @@ nav a {
 nav img {
   width: 5vw;
 }
+<<<<<<< HEAD
+=======
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00a8c7;
+  text-align: center;
+  font-size: 34px; }
+>>>>>>> d200a43e7631b7d816a320ed4ab701fbb76376da
