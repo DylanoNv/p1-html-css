@@ -19,24 +19,32 @@ nav {
   flex-wrap: wrap;
   margin: auto;
   background: #00a8c7;
-  justify-content: space-between;
+  position: relative;
 }
+
+nav img {
+  width: 5vw;
+  position: absolute;
+  left: 2rem;
+}
+
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
+  margin: 0 auto;
 }
+
 nav li {
   font-size: 2.5rem;
-  padding: 0 4rem 0 4rem;
+  padding: 0 4rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
 }
-nav img {
-  width: 5vw;
-}
+
 
 footer {
   position: fixed;
@@ -46,3 +54,8 @@ footer {
   background-color: #00a8c7;
   text-align: center;
   font-size: 34px; }
+
+  h1 {
+    text-align: center;
+    color: white;
+  }
