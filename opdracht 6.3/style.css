@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    flex: 1;
+    text-align: left;
+    font-size: 24px;
+    color: blue;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+}
+
+.nav-links li {
+    font-size: 18px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: blue;
+}
+
+.login {
+    flex: 1;
+    text-align: right;
+    font-size: 18px;
+}
+
+.login a {
+    text-decoration: none;
+    color: blue;
+}
