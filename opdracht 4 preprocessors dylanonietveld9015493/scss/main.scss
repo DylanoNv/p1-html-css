@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'mixins';
+
+.mijn-header {
+    @include flex-center;
+    background-color: $header-bg;
+    color: white;
+    padding: 2rem;
+
+    h1 {
+        font-size: $basis-font * 2;
+    }
+}
+
+.primaire-knop {
+    @include knop-stijl($primair-kleur);
+    color: white;
+}
+
+.blog-post {
+    p {
+        font-size: $basis-font;
+        line-height: 1.6;
+    }
+}
